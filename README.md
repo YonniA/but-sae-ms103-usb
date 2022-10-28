@@ -11,7 +11,7 @@
 Création d'un identifiant à partir de la commande ` adduser --UID 30591 --GID 100 --home /home/andr0134 andr0134` et affectation directe à l'UID, le GID et le répertoire d'accueil demandé.  
 
 Création d'un identifiant administrateur à partir de la commande `sudo adduser --UID 63975 --GID 100 --home /home/administrateur admin` et affection directe à l'UID, le GID et le répertoire d'accueil demandé. (à noter que pour créer un utilisateur avec des droits d'administration, il faut utiliser la commande sudo).  
-Pour ajouter l'utilisateur au groupe secondaire sudo, on fait la commande `sudo addgroup admin sudo`
+Pour ajouter l'utilisateur au groupe secondaire sudo, on fait la commande `sudo usermod -aG sudo admin`
 
 ---
 
